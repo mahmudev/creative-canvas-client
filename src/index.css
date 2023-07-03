@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.active {
+  @apply font-medium tracking-wide text-yellow-400 transition-colors duration-200 hover:text-yellow-400;
+}
+
+.default {
+  @apply font-medium tracking-wide text-white transition-colors duration-200 hover:text-yellow-400;
+}
